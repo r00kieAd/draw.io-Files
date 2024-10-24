@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2024-10-24T04:05:39.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="20.8.13" etag="DFmekljrqyyXdEjGDoo5" type="github"><diagram name="Page-1" id="P4kHmAsAo3grdaQsscKD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2024-10-24T04:15:44.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="UEF25_aiFRpqrUjUMYO_" version="20.8.13" type="github">
+  <diagram name="Page-1" id="P4kHmAsAo3grdaQsscKD">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-1" value="Landing page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-2" value="Login Page (MS Authentication)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-3" value="Login?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-5" value="Yes" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="60" as="sourcePoint" />
+            <mxPoint x="370" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-6" value="Yes&lt;br&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="XitvX-9Zzr-wFKuj-k_G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XitvX-9Zzr-wFKuj-k_G-1" target="XitvX-9Zzr-wFKuj-k_G-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="450" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-9" value="Logged In" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XitvX-9Zzr-wFKuj-k_G-2" target="XitvX-9Zzr-wFKuj-k_G-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="60" as="sourcePoint" />
+            <mxPoint x="560" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XitvX-9Zzr-wFKuj-k_G-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" width="130" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
